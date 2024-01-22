@@ -1,0 +1,64 @@
+
+body{
+    /* border-style: solid;
+    border-color: rgb(0, 140, 255);
+    border-width: 15px;
+    height: 320px;
+    width: 320px;
+    margin-top: 90px;
+    margin-left: 360px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   position: relative; */
+   background-color: rgba(40, 196, 190, 0.902);
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+  padding-top: 15px;
+  flex-wrap: wrap; 
+  
+
+}
+   
+
+
+
+#userName{
+width: 400px;
+height: 40px;
+/* margin-top: 5px; */
+}
+#password{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+#title{
+    display: inline;
+    font-size: 50px;
+    text-align: center;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    text-shadow:15px 15px blue;
+    /* margin-bottom: 50px; */
+
+}
+#bEnter{
+ border: none;
+border-radius:10px;
+height: 34px;
+width: 70px;
+margin-top: 10px;
+margin-left: 60px;
+
+}
+#epassword{
+    color: red;
+}
+#eName{
+
+    color: red; 
+}
+}
